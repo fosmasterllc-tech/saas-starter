@@ -1,6 +1,6 @@
 'use client';
 
-import { useActionState } from 'react';
+import { useFormState as useActionState } from 'react-dom';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
